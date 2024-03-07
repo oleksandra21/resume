@@ -8,21 +8,35 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: transparent !important;
+	background-image: url("images/oleksandra.png") !important;
+}
+	
+
+.montserrat-sasha {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+	
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: red;
+
+  background-image: linear-gradient( #BFD3DB,  #BBDBCB);
 }
 
+
 .resume-main {
-	background-color: #fffefc;
+	background-color: transparent !important;
+	
 }
 
 .resume-aside {
-	background-color: #FFF698;
+	border-left: 2px solid #BBDBCB  ;
+
 }
 
 /* Styles for lists in the document */
@@ -33,6 +47,12 @@ body {
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
+}
+
+.montecarlo-regular {
+  font-family: "MonteCarlo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .biography-details li::before {
@@ -47,5 +67,16 @@ body {
 
 .contact-icon {
 	height: 1em;
-	flex-basis: 1.4em;
+	flex-basis: 1 em;
 }
+.language-level { border-color: #BBDBCB !important;
+	
+}
+
+.language-progress { 
+	background-color: #BBDBCB !important ;
+}
+
+.name-style {color: #15311B;
+text-shadow: 3px 3px white;}
+  
