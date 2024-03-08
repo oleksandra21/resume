@@ -30,12 +30,16 @@ body {
 
 
 .resume-main {
-	background-color: transparent !important;
+	background-color: white;
+		
 	
 }
 
 .resume-aside {
 	border-left: 2px solid #BBDBCB  ;
+	background-color: transparent !important;
+	background-image: url("../images/backgroundphoto.png");
+		
 
 }
 
